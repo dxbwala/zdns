@@ -1,2 +1,42 @@
 .idea/
 dist/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.coverprofile
+coverage.html
+coverage.txt
+
+# Go workspace file
+go.work
+
+# Build artifacts
+/routedns
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test cache
+.cache/
+
+# Dependency directories
+vendor/
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
